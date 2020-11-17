@@ -8,9 +8,74 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">*/
 
+/* <!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Spatial Analysis</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Geovis</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Databases & WebDevelopment</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Survey & Geodesy</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Python</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Remote Sensing</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">Spatial Analysis</a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">Geovis</a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">Databases & WebDevelopment</a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">Survey & Geodesy</a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">Python</a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">Remote Sensing</a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+    </div>
+</div> */
+
+/* The navigation bar */
+.navbar {​​​​​​​
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}​​​​​​​
+
+nav {
+  background-color: #880;
+
+}
+/* i change the list-style type of the unordered lists in my html files to none so I don't get any bullets in my lists i set the margins and padding to 0 so they mush together and set the overflow to hidden to the images and links bump up together */
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+/* for the links I set them to float to the left so that they sit on top of the images and their background. It's part of my design plan and I think it works really well. I also display them as block so each link is on their own with their own set of padding (14px horizontal and 16px vertical) I didn't change it from what was shown in the w3schools tutorial for the navigation bar because it just worked with my layout. I did play around with it, which is why I know the first size is horizontal and the second is vertical. I make the color of the link text white, align them to the center of their respective boxes, remove their underline with "text-decoration: none" and give them a dashed border to the right of each block with border-right: 2px dashed white (2px width) */
+li a {
+  float:left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 2px dashed white;
+}
+/* I make it so that the background color of the link when
+a user hovers over it is the same color of the aside 
+background. It just lines things up and ties in the layout nicely */
+li a:hover {
+  background-color: #660;
+}
+/* I set a class to have the background color black. I use this for the page the user is on in the navigation bar */
+.active{background-color:black}
+
+
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.w3-bar, h1, button {font-family: "Montserrat", sans-serif}
-.fa-anchor, .fa-coffee {font-size:200px}
 
 /* I'm going to make another change just to make sure I can /*
 /* 9:17 November 17th 2020 */
