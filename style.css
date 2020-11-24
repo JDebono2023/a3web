@@ -54,6 +54,7 @@ Taken from Jenn's web page */
 }
 /* Korey has created a section for the header to have an image next to the web site name */
 section:after {
+  background-color: #4e6d26;
   content: "";
   display: table;
   clear: both;
