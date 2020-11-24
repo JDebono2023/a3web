@@ -10,7 +10,6 @@ nav {
   background-color: #880;
   overflow: hidden;
   width: 100%;     /* Full width */
-  position: inherit;
 
 }
 /* i change the list-style type of the unordered lists in my html files to none so I don't get any bullets in my lists i set the margins and padding to 0 so they mush together and set the overflow to hidden to the images and links bump up together */
