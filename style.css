@@ -24,6 +24,7 @@ ul {
   padding:0;
   overflow: hidden;
 }
+
 /* for the links I set them to float to the left so that they sit on top of the images and their background. It's part of my design plan and I think it works really well. I also display them as block so each link is on their own with their own set of padding (14px horizontal and 16px vertical) I didn't change it from what was shown in the w3schools tutorial for the navigation bar because it just worked with my layout. I did play around with it, which is why I know the first size is horizontal and the second is vertical. I make the color of the link text white, align them to the center of their respective boxes, remove their underline with "text-decoration: none" and give them a dashed border to the right of each block with border-right: 2px dashed white (2px width) */
 li a {
   float:left;
