@@ -5,6 +5,17 @@
 
 /* Colors: https://colourco.de/monochrome/5/77a838 Monochrome green -Jim */
 
+body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
+
+/* Style the footer
+Taken from Jenn's web page */
+.footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+/* Korey has created a section for the header to have an image next to the web site name */
 /* Navigation Bar */
 
 nav {
@@ -41,21 +52,8 @@ li a:hover {
 }
 /* I set a class to have the background color black. I use this for the page the user is on in the navigation bar */
 .active{background-color: #334719}
-
-
-body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
-/* Style the footer
-Taken from Jenn's web page */
-.footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-/* Korey has created a section for the header to have an image next to the web site name */
 section{
-  background-color: #4e6d26;
-}
+  background-color: #4e6d26;}
 section:after {
   content: "";
   display: table;
