@@ -57,7 +57,9 @@ section:after {
   display: table;
   clear: both;
 }
-.header{width: 70%;}
+.header{width: 70%;
+text-align:right;
+}
 aside {
   float: left;
   padding: 10px;
