@@ -42,7 +42,7 @@ li a:hover {
 .active{background-color: #334719}
 
 
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 /* Style the footer
 Taken from Jenn's web page */
 .footer {
@@ -57,7 +57,8 @@ section:after {
   display: table;
   clear: both;
 }
-.header{width: 70%;
+header{width: 70%;
+  font-size: 50px;
   float: right;
   text-align:right;
 }
