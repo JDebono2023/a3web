@@ -45,6 +45,14 @@ li a:hover {
 
 
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+/* Style the footer
+Taken from Jenn's web page */
+.footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
 
 /* I'm going to make another change just to make sure I can /*
 /* 9:17 November 17th 2020 */
