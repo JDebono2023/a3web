@@ -57,11 +57,13 @@ article{
   text-align: left;
   float: left;
   width: 60%;
+  padding-left: 10px;
 }
 section:after {
   content: "";
   display: table;
   clear: both;
+  padding-bottom: 10px;
 }
 header{width: 60%;
   font-size: 50px;
