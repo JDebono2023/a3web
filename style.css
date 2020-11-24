@@ -58,7 +58,8 @@ section:after {
   clear: both;
 }
 .header{width: 70%;
-text-align:right;
+  float: right;
+  text-align:right;
 }
 aside {
   float: left;
