@@ -5,15 +5,13 @@
 
 
 /* Navigation Bar */
-.navbar {
+
+nav {
+  background-color: #880;
   overflow: hidden;
-  background-color: #333;
   position: fixed; /*Set the navbar to fixed position */
   top: 0;          /* Position navbar at the top of the page*/
   width: 100%;     /* Full width */
-}
-nav {
-  background-color: #880;
 
 }
 /* i change the list-style type of the unordered lists in my html files to none so I don't get any bullets in my lists i set the margins and padding to 0 so they mush together and set the overflow to hidden to the images and links bump up together */
