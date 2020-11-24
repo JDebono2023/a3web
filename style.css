@@ -68,7 +68,7 @@ aside {
   float: left;
   padding: 10px;
   width: 30%;
-  background-color: #4e6d26;
+  /* background-color: #4e6d26; */
 }
 .image{width: 100%;
   list-style-type: none;
