@@ -32,6 +32,7 @@ li a {
   text-decoration: none;
   border-right: 2px dashed white;
 }
+li {list-style-type: none;}
 /* I make it so that the background color of the link when
 a user hovers over it is the same color of the aside 
 background. It just lines things up and ties in the layout nicely */
