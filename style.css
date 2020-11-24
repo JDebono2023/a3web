@@ -3,11 +3,13 @@
 
 /* Font */
 
+/* Colors: https://colourco.de/monochrome/5/77a838 Better color appeal */
 
 /* Navigation Bar */
 
 nav {
-  background-color: #880;
+  background-color: 
+  #4e6d26;
   overflow: hidden;
   width: 100%;     /* Full width */
 
@@ -34,7 +36,7 @@ li a {
 a user hovers over it is the same color of the aside 
 background. It just lines things up and ties in the layout nicely */
 li a:hover {
-  background-color: #660;
+  background-color: #4e6d26;
 }
 /* I set a class to have the background color black. I use this for the page the user is on in the navigation bar */
 .active{background-color:black}
@@ -60,7 +62,7 @@ aside {
   float: left;
   padding: 10px;
   width: 30%;
-  background-color: #660;
+  background-color: #4e6d26;
 }
 .image{width: 100%;}
 /* I'm going to make another change just to make sure I can /*
