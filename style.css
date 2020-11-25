@@ -4,11 +4,22 @@
 /* Font */
 
 /* Colors: https://colourco.de/monochrome/5/77a838 Monochrome green -Jim */
+/***************** 
+* Owner : Honglin (Jim) Wei
+* Date  : Nov 24 (v1)
+* From  : https://www.w3schools.com/html/html_intro.asp
+******************/
 
 body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 
-/* Style the footer
-Taken from Jenn's web page */
+/* End Owner: Honglin (Jim) Wei */
+
+/***************** 
+* Owner : Jennifer Debono
+* Date  : Nov 24 (v1)
+* From  : Link?
+******************/
+
 .footer {
   background-color: #777;
   padding: 10px;
@@ -16,7 +27,15 @@ Taken from Jenn's web page */
   color: white;
   margin-top: 10px;
 }
-/* Korey has created a section for the header to have an image next to the web site name */
+/* End Owner: Jennifer Debono */
+
+/* Korey Start*/
+/***************** 
+* Owner : Korey Hayes
+* Date  : Nov 5 (v1)
+* From  : https://www.w3schools.com/html/html_intro.asp
+******************/
+
 /* Navigation Bar */
 
 nav {
@@ -81,3 +100,5 @@ aside {
   list-style-type: none;
 }
 .top{background-color: #4e6d26;}
+
+/* End Owner: Korey Hayes */
