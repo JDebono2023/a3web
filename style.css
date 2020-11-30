@@ -87,6 +87,11 @@ li a:hover {
 the page the user is on in the navigation bar */
 .active{background-color: #334719}
 
+/* I developed this formatting through w3school tutorials
+and refined it through Programminghub.io 
+I created a section that incorporated a side that was 30% of the page
+and an artice that was 60% (to allow for no overlap with padding)
+which is also responsive depending on the window size*/
 article{
   text-align: left;
   float: left;
@@ -98,21 +103,42 @@ section:after {
   display: table;
   clear: both;
 }
-header{width: 60%;
-  font-size: 50px;
-  float: right;
-  text-align:right;
-  background-color: #4e6d26;
-}
 aside {
   float: left;
   padding: 10px;
   width: 30%;
   background-color: #4e6d26;
 }
+/* This header was designed  to use my Mattawa River photo
+to coincide with the Fleming College Logo */
+header{width: 60%;
+  font-size: 50px;
+  float: right;
+  text-align:right;
+  background-color: #4e6d26;
+}
+/* I designed the image formatting to be 100% the width of
+whatever tag it is in. Each tag has been given a width of a
+percentage to have a responsive display that depends on window size */
 .image{width: 100%;
   list-style-type: none;
 }
+/* we had decided as a group that the top of our page should have
+a background to make sure that the photo placement is seamless */
 .top{background-color: #4e6d26;}
+
+/* now I will make my column classes to go with my individual web page */
+.columnk1{ float: left;
+width: 50%;
+}
+.columnk2{ float: right;
+width: 40%
+}
+.columnk3{ float: right;
+width: 50%
+}
+.columnk4{ float: left;
+width: 40%;
+}
 
 /* End Owner: Korey Hayes */
