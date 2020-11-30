@@ -32,7 +32,8 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 /***************** 
 * Owner : Korey Hayes
 * Date  : Nov 24 (v1)
-* From  : https://www.w3schools.com/html/html_intro.asp
+* From  : https://programminghub.io/coursedetail/programming/learn/CSS/
+* the tag names li, li a and ul are from https://www.w3schools.com/css/css_navbar.asp
 ******************/
 
 /* Navigation Bar */
@@ -98,7 +99,7 @@ article{
   width: 60%;
   margin-left: 10px; 
 }
-section:after {
+section:after { /* "section:after" is from https://www.w3schools.com/css/css_website_layout.asp */
   content: "";
   display: table;
   clear: both;
