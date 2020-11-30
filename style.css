@@ -83,7 +83,7 @@ background. It just lines things up and ties in the layout nicely */
 li a:hover {
   background-color: #9dcc60;
 }
-/* I set a class to have the background color black. I use this for 
+/* I set a class to have the background color below. I use this for 
 the page the user is on in the navigation bar */
 .active{background-color: #334719}
 
@@ -91,7 +91,7 @@ article{
   text-align: left;
   float: left;
   width: 60%;
-  margin-left: 10px;
+  margin-left: 10px; 
 }
 section:after {
   content: "";
