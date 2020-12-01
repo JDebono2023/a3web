@@ -102,6 +102,25 @@ Footer style
   color: white;
 }
 /*End Owner: J. Debono*/
+/*********************************
+Owner: Jenn Debono
+Nov 30 2020
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Handling_different_text_directions 
+Format text style boxes for titles on Crew page
+**********************************/
+
+.box {
+  width: 150px;
+}
+
+.horizontal {
+  writing-mode: horizontal-tb;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+}
+/*End Owner: J. Debono*/
 
 /*********************************
 Owner: Korey Hayes
@@ -133,24 +152,7 @@ aside {
 .image{width: 100%;}
 /*End Owner: K. Hayes*/
 
-/*********************************
-Owner: Jenn Debono
-Nov 30 2020
-https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Handling_different_text_directions 
-Format text style boxes for titles on Crew page
-**********************************/
-.box {
-  width: 150px;
-}
 
-.horizontal {
-  writing-mode: horizontal-tb;
-}
-
-.vertical {
-  writing-mode: vertical-rl;
-}
-/*End Owner: J. Debono*/
 /* This header was designed  to use my Mattawa River photo
 to coincide with the Fleming College Logo */
 header{width: 60%;
