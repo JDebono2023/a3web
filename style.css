@@ -179,13 +179,13 @@ a background to make sure that the photo placement is seamless */
 
 /* now I will make my column classes to go with my individual web page */
 .columnk1{ float: left;
-width: 50%;
+width: 59%;
 }
 .columnk2{ float: right;
 width: 40%
 }
 .columnk3{ float: right;
-width: 50%
+width: 59%
 }
 .columnk4{ float: left;
 width: 40%;
