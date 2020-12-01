@@ -17,6 +17,14 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 /* https://css-tricks.com/almanac/properties/l/list-style/ */
 /* End Owner: Honglin (Jim) Wei */
 
+.imgj{width: 50%;
+  list-style-type: none;
+}
+
+.imgj2{width: 35%;
+  list-style-type: none;
+}
+
 /***************** 
 * Owner : Jennifer Debono
 * Date  : Nov 24 (v1)
