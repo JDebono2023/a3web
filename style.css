@@ -93,7 +93,8 @@ the page the user is on in the navigation bar */
 .active{background-color: #334719}
 
 
-body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
+body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif} 
+/* This ^ has already been stated in my section at the top -Jim */
 /*********************************
 Owner: Jenn Debono
 Nov 30 2020
