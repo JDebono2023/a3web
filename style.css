@@ -66,7 +66,7 @@ Format text style boxes for titles on Crew page
 * Owner : Korey Hayes
 * Date  : Nov 24 (v1)
 * From  : https://programminghub.io/coursedetail/programming/learn/CSS/
-* the tag names li, li a and ul are from https://www.w3schools.com/css/css_navbar.asp
+* the tag names li, li a and ul are from https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 ******************/
 
 /* Navigation Bar */
@@ -149,7 +149,7 @@ aside {
   background-color: #4e6d26;
 }
 .image{width: 100%;}
-/*End Owner: K. Hayes*/
+
 
 
 /* This header was designed  to use my Mattawa River photo
