@@ -11,8 +11,11 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 
 /* Colors: https://colourco.de/monochrome/5/77a838 Monochrome green */
 
-ul.j {
-  list-style-type: "→";
+.j {
+  list-style-type: square;
+}
+li.j {
+  list-style-type: square;
 }
 /* Need help with implenting bullets */
 /* https://css-tricks.com/almanac/properties/l/list-style/ */
