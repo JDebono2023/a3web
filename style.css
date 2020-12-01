@@ -108,13 +108,12 @@ Owner: Korey Hayes
 Nov 24 2020
 created a section for the header to have an image next to the web site name
 **********************************/
-section:after {
 /* I developed this formatting through w3school tutorials
 and refined it through Programminghub.io 
 I created a section that incorporated a side that was 30% of the page
 and an artice that was 60% (to allow for no overlap with padding)
 which is also responsive depending on the window size*/
-article{
+article: {
   text-align: left;
   float: left;
   width: 60%;
