@@ -1,17 +1,21 @@
 /* Main Style stylesheet*/
 /* Must be from less thatn 50% of one source*/ 
 
-/* Font */
-
-/* Colors: https://colourco.de/monochrome/5/77a838 Monochrome green -Jim */
 /***************** 
 * Owner : Honglin (Jim) Wei
 * Date  : Nov 24 (v1)
 * From  : https://www.w3schools.com/html/html_intro.asp
 ******************/
-
+/* Font */
 body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 
+/* Colors: https://colourco.de/monochrome/5/77a838 Monochrome green */
+
+ul.j {
+  list-style-type: "→";
+}
+/* Need help with implenting bullets */
+/* https://css-tricks.com/almanac/properties/l/list-style/ */
 /* End Owner: Honglin (Jim) Wei */
 
 /***************** 
@@ -89,7 +93,8 @@ the page the user is on in the navigation bar */
 .active{background-color: #334719}
 
 
-body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
+body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif} 
+/* This ^ has already been stated in my section at the top -Jim */
 /*********************************
 Owner: Jenn Debono
 Nov 30 2020
