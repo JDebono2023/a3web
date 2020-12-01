@@ -7,7 +7,6 @@
 <!-- <link rel="stylesheet" href="/CSS_Pg1.css">-->
 
 <!-- We have to decide on the template as a group together before we go willy nilly to create our pages-->
-<link rel="stylesheet" href="style.css">
 
 <html>
 
@@ -41,6 +40,7 @@ I also style the navigation bar in the CSS file-->
     <!--Close the navigation area-->
 </nav>
 <!--kedie's page--><!--kedie's page-->
+<!--
 <p>whether you are looking to bring old maps to live, 
     or correct coordinates systems for your projecct, our
     Geodesy department is the place to bring your project.
@@ -55,8 +55,76 @@ I also style the navigation bar in the CSS file-->
 <h2>LAUNCH YOUR CAREER</h2>   
 <p>We offer internships to second year Post Secondary students
 Fill this form and a member our team will contact you 
-to discuss launching you carreer with the titans of the industry</p> 
-<aside><img src="image/Logo.JPG" alt="Fleming Logo"></aside>
+to discuss launching you carreer with the titans of the industry</p> -->
+
+<style>
+    {margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'arial';}
+
+.wrapper{
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  padding: 25px;
+  border-radius: 5px; 
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid black;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+/* style submit button*/
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  color: Green;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+</style>
+
 
 <div class="wrapper">
   <h2>Intern with us!</h2>
