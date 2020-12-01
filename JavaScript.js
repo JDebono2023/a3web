@@ -19,7 +19,7 @@ function validate(){
       error_message.innerHTML = text;
       return false;
     }
-    if(program.length < 10){
+    if(program.length < 5){
       text = "Please Enter Program of Study";
       error_message.innerHTML = text;
       return false;
@@ -34,7 +34,7 @@ function validate(){
       error_message.innerHTML = text;
       return false;
     }
-    if(course.length <= 140){
+    if(course.length <= 25){
       text = "Please Enter courses";
       error_message.innerHTML = text;
       return false;
