@@ -14,9 +14,6 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 .j {
   list-style-type: square;
 }
-li.j {
-  list-style-type: square;
-}
 /* Need help with implenting bullets */
 /* https://css-tricks.com/almanac/properties/l/list-style/ */
 /* End Owner: Honglin (Jim) Wei */
@@ -41,7 +38,7 @@ Link: ??
 Footer style
 **********************************/
 .footer {
-  background-color: #777;
+  background-color: #777;       /* This is a repeat */
   padding: 10px;
   text-align: center;
   color: white;
@@ -84,9 +81,9 @@ nav {
 /* i change the list-style type of the unordered lists in my html 
 files to none so I don't get any bullets in my lists i set the
  margins and padding to 0 so they mush together and set the overflow 
- to hidden to the images and links bump up together */
+  /* list-style-type: none; */
+ /* to hidden to the images and links bump up together */ */
 ul {
-  list-style-type: square;
   margin:0;
   padding:0;
   overflow: hidden;
@@ -104,8 +101,8 @@ text white, align them to the center of their respective boxes, remove
 their underline with "text-decoration: none" and give them a dashed 
 border to the right of each block with border-right: 2px dashed white 
 (2px width) */
+.link{list-style-type: none;}
 li a {
-  list-style-type: none;
   float:left;
   display: block;
   color: white;
@@ -114,7 +111,6 @@ li a {
   text-decoration: none;
   border-right: 2px dashed white;
 }
-/* li {list-style-type: none;} */
 /* I make it so that the background color of the link when
 a user hovers over it is the same color of the aside 
 background. It just lines things up and ties in the layout nicely */
