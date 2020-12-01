@@ -11,8 +11,8 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 
 /* Colors: https://colourco.de/monochrome/5/77a838 Monochrome green */
 
-ul.j {
-  list-style-type: "→";
+.j {
+  list-style-type: square;
 }
 /* Need help with implenting bullets */
 /* https://css-tricks.com/almanac/properties/l/list-style/ */
@@ -30,6 +30,35 @@ ul.j {
   text-align: center;
   color: white;
   margin-top: 10px;
+}
+/*********************************
+Owner: Jenn Debono
+Nov 30 2020
+Link: ??
+Footer style
+**********************************/
+.footer {
+  background-color: #777;       /* This is a repeat */
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+/*
+Nov 30 2020
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Handling_different_text_directions 
+Format text style boxes for titles on Crew page
+**********************************/
+
+.box {
+  width: 150px;
+}
+
+.horizontal {
+  writing-mode: horizontal-tb;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
 }
 /* End Owner: Jennifer Debono */
 
@@ -52,9 +81,9 @@ nav {
 /* i change the list-style type of the unordered lists in my html 
 files to none so I don't get any bullets in my lists i set the
  margins and padding to 0 so they mush together and set the overflow 
- to hidden to the images and links bump up together */
+  /* list-style-type: none; */
+ /* to hidden to the images and links bump up together */ */
 ul {
-  list-style-type: none;
   margin:0;
   padding:0;
   overflow: hidden;
@@ -72,6 +101,7 @@ text white, align them to the center of their respective boxes, remove
 their underline with "text-decoration: none" and give them a dashed 
 border to the right of each block with border-right: 2px dashed white 
 (2px width) */
+.link{list-style-type: none;}
 li a {
   float:left;
   display: block;
@@ -81,7 +111,6 @@ li a {
   text-decoration: none;
   border-right: 2px dashed white;
 }
-li {list-style-type: none;}
 /* I make it so that the background color of the link when
 a user hovers over it is the same color of the aside 
 background. It just lines things up and ties in the layout nicely */
@@ -91,41 +120,6 @@ li a:hover {
 /* I set a class to have the background color below. I use this for 
 the page the user is on in the navigation bar */
 .active{background-color: #334719}
-
-
-body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif} 
-/* This ^ has already been stated in my section at the top -Jim */
-/*********************************
-Owner: Jenn Debono
-Nov 30 2020
-Footer style
-**********************************/
-.footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-/*End Owner: J. Debono*/
-/*********************************
-Owner: Jenn Debono
-Nov 30 2020
-https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Handling_different_text_directions 
-Format text style boxes for titles on Crew page
-**********************************/
-
-.box {
-  width: 150px;
-}
-
-.horizontal {
-  writing-mode: horizontal-tb;
-}
-
-.vertical {
-  writing-mode: vertical-rl;
-}
-/*End Owner: J. Debono*/
 
 /*********************************
 Owner: Korey Hayes
@@ -191,3 +185,76 @@ width: 40%;
 }
 
 /* End Owner: Korey Hayes */
+
+/* Owner: Kedie Perdue
+Nov 30, 2020
+https://www.w3schools.com/css/css_form.asp*/
+
+/*
+{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'arial';}
+
+.wrapper{
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  padding: 25px;
+  border-radius: 5px; 
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid black;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+/* style submit button*/
+/*
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  color: Green;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+*/
+/* End Owner Kedie Perdue*/
