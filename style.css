@@ -14,9 +14,16 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 .j {
   list-style-type: square;
 }
-/* Need help with implenting bullets */
 /* https://css-tricks.com/almanac/properties/l/list-style/ */
 /* End Owner: Honglin (Jim) Wei */
+
+.imgj{width: 50%;
+  list-style-type: none;
+}
+
+.imgj2{width: 35%;
+  list-style-type: none;
+}
 
 /***************** 
 * Owner : Jennifer Debono
@@ -72,7 +79,7 @@ img {
 * Owner : Korey Hayes
 * Date  : Nov 24 (v1)
 * From  : https://programminghub.io/coursedetail/programming/learn/CSS/
-* the tag names li, li a and ul are from https://www.w3schools.com/css/css_navbar.asp
+* the tag names li, li a and ul are from https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 ******************/
 
 /* Navigation Bar */
@@ -155,7 +162,7 @@ aside {
   background-color: #4e6d26;
 }
 .image{width: 100%;}
-/*End Owner: K. Hayes*/
+
 
 
 /* This header was designed  to use my Mattawa River photo
