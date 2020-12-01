@@ -22,7 +22,7 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 * Owner : Jennifer Debono
 * Date  : Nov 24 (v1)
 * From  : Link?
-******************/
+**********************************/
 
 .footer {
   background-color: #777;
@@ -31,24 +31,13 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
   color: white;
   margin-top: 10px;
 }
-/*********************************
-Owner: Jenn Debono
-Nov 30 2020
-Link: ??
-Footer style
-**********************************/
-.footer {
-  background-color: #777;       /* This is a repeat */
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-/*
-Nov 30 2020
-https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Handling_different_text_directions 
-Format text style boxes for titles on Crew page
-**********************************/
 
+/***************** 
+* Owner : Jennifer Debono
+* Nov 30 2020
+* https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Handling_different_text_directions 
+* Format text style boxes for titles on Crew page
+**********************************/
 .box {
   width: 150px;
 }
@@ -59,6 +48,23 @@ Format text style boxes for titles on Crew page
 
 .vertical {
   writing-mode: vertical-rl;
+}
+
+/****************** 
+* Owner : Jennifer Debono
+* Dec 1 2020
+* https://www.geeksforgeeks.org/resize-image-proportionally-with-css/ 
+* Format images on Crew page
+**********************************/
+
+.gfg { 
+  width:auto; 
+  text-align:center; 
+  padding:20px; 
+} 
+img {
+  max-width:100%;
+  height:auto;
 }
 /* End Owner: Jennifer Debono */
 
