@@ -49,7 +49,7 @@ function validate(){
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function clickDrop() {
-  var x = document.getElementById("myLinks");
+  var x = document.getElementById("navLinks");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
@@ -58,7 +58,7 @@ function clickDrop() {
 }
 // // Close the dropdown menu if the user clicks outside of it
 // window.onclick = function(event) {
-//   if (!event.target.matches('.topnav')) {
+//   if (!event.target.matches('.navDrop')) {
 //     var dropdowns = document.getElementsByClassName("dropdown-content");
 //     var i;
 //     for (i = 0; i < dropdowns.length; i++) {

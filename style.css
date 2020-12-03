@@ -192,19 +192,19 @@ width: 40%;
 }
 
 /* Style the navigation menu */
-.topnav {
+.navDrop {
   overflow: hidden;
   background-color: #4e6d26;
   position: relative;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
+.navDrop #navLinks {
   display: none;
 }
 
 /* Style navigation menu links */
-.topnav a {
+.navDrop a {
   color: white;
   padding: 10px;
   text-decoration: none;
@@ -212,7 +212,7 @@ width: 40%;
   display: block;
 }
 /* Add a grey background color on mouse-over */
-.topnav a:hover {
+.navDrop a:hover {
   background-color: #9dcc60;
 }
 
