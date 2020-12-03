@@ -49,11 +49,12 @@ function validate(){
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function clickDrop() { 
-  var x = document.getElementById("navLinks");
-  if (x.style.display === "block") {
-    x.style.display = (window.onclick = "none");
-    x.style.display = "none";
+  var drop = document.getElementById("navLinks");
+  if (drop.style.display === "block") {
+    drop.style.display = (window.onclick = "none");
+    drop.style.display = "none";
   } else {
-    x.style.display = "block";
+    drop.style.display = "block";
   }
 }
+// End Owner: Korey Hayes
