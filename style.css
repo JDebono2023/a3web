@@ -84,18 +84,18 @@ img {
 
 /* Navigation Bar */
 
-nav {
+ nav {
   background-color: 
   #4e6d26;
   overflow: hidden;
-  width: 100%;     /* Full width */
-
+  width: 100%;
 }
+
+
 /* i change the list-style type of the unordered lists in my html 
 files to none so I don't get any bullets in my lists i set the
- margins and padding to 0 so they mush together and set the overflow 
-  /* list-style-type: none; */
- /* to hidden to the images and links bump up together */ */
+margins and padding to 0 so they mush together and set the overflow 
+to hidden so the images and links bump up together */
 ul {
   margin:0;
   padding:0;
@@ -122,7 +122,6 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  border-right: 2px dashed white;
 }
 /* I make it so that the background color of the link when
 a user hovers over it is the same color of the aside 
@@ -134,11 +133,6 @@ li a:hover {
 the page the user is on in the navigation bar */
 .active{background-color: #334719}
 
-/*********************************
-Owner: Korey Hayes
-Nov 24 2020
-created a section for the header to have an image next to the web site name
-**********************************/
 /* I developed this formatting through w3school tutorials
 and refined it through Programminghub.io 
 I created a section that incorporated a side that was 30% of the page
@@ -197,6 +191,43 @@ width: 59%
 width: 40%;
 }
 
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #4e6d26;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+}
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #9dcc60;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #334719;
+}
+
+
+
+/* Source: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design */
+@media screen and (max-width: 600px) { 
+  .columnk1,  .columnk2, .columnk3, .columnk4, article, header, aside, nav, li, a{ 
+    width: 100%; 
+  }
 /* End Owner: Korey Hayes */
 
 /* Owner: Kedie Perdue
