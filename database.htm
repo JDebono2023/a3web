@@ -12,6 +12,7 @@
 --------------------->
 
 <link rel="stylesheet" href="style.css">
+<script src="JavaScript.js"></script>
 
 <html>
 <body>
@@ -25,11 +26,12 @@
     </section>
 <!--Navbar-->
 <!--Active Shows Current Page-->
-<nav>
-    <ul class = "link">
+<nav class = "navDrop">
+    <a href="javascript:void(0);" onclick="clickDrop()">Menu</a>
+    <ul class = "link" id = "navLinks">
+        <li><a class="active" href="database.htm">DATABASES</a></li>
         <li><a href="index.htm">Main</a></li> 
         <li><a href="cad.htm">Surveying</a></li>
-        <li><a class="active" href="database.htm">DATABASES</a></li>
         <li><a href="geodesy.htm">Geodesy</a></li>
         <li><a href="geoviz.htm">Geoviz'</a></li>
         <li><a href="psp.htm">Programming</a></li>
