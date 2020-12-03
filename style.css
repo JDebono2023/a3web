@@ -114,7 +114,10 @@ text white, align them to the center of their respective boxes, remove
 their underline with "text-decoration: none" and give them a dashed 
 border to the right of each block with border-right: 2px dashed white 
 (2px width) */
-.link{list-style-type: none;}
+.link{
+  list-style-type: none;
+}
+
 li a {
   float:left;
   display: block;
