@@ -8,9 +8,11 @@
 ******************/
 /* Font */
 body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
-
+.columnk1,  .columnk2, .columnk3, .columnk4, article, header, aside, nav, li, a{ 
+  width: 100%; 
+}
 /* Colors: https://colourco.de/monochrome/5/77a838 Monochrome green */
-
+@media only screen and (min-width: 800px) {
 .j {
   list-style-type: square;
 }
@@ -227,10 +229,8 @@ width: 40%;
 
 
 /* Source: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design */
-@media only screen and (max-width: 800px) { 
-  .columnk1,  .columnk2, .columnk3, .columnk4, article, header, aside, nav, li, a{ 
-    width: 100%; 
-  }
+ 
+
 }
 /* End Owner: Korey Hayes */
 
