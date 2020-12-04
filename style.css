@@ -229,7 +229,7 @@ width: 40%;
 
 /* Source: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design */
  
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 800px) {
   .columnk1,  .columnk2, .columnk3, .columnk4, article, header, aside, nav, li, a{ 
     width: 100%; 
   }
