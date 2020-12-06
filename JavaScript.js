@@ -58,3 +58,22 @@ function clickDrop() {
   }
 }
 // End Owner: Korey Hayes
+
+////////////////////
+// Owner : Honglin (Jim) Wei
+// Date  : Dec 6 (v1)
+// From  : // https://developers.google.com/maps/documentation/javascript/adding-a-google-map#all
+////////////////////
+
+// Initialize init Map function
+function initMap(){
+  // Give constant variable for fleming location
+    const fleming = {lat:44.3431848,lng:-78.7450429};
+    
+    // uses the map element to center at fleming, and zoom to lvl 13
+    const map = new google.maps.Map(document.getElementById("map"),{
+        zoom: 13,
+        center: fleming,
+    })
+}
+// End Owner: Honglin (Jim) Wei
