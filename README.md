@@ -9,3 +9,6 @@ https://jimhwei.github.io/group7a3web/index.htm
 
 Charlotte's Web Github:
 https://github.com/jimhwei/group7a3web
+
+Commenting Guideline:
+https://github.com/shawnmflemingc/a3web
