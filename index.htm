@@ -3,8 +3,9 @@
     <head>
         <title>Group 7 Consulting</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="stylePlay.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <script src = "JavaScript.js"></script>
     </head>
 <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 <!-- <link rel="stylesheet" href="/CSS_Pg1.css">-->
@@ -27,8 +28,9 @@
         - From  : https://www.w3schools.com/html/html_intro.asp
         ------------------- -->
     <!--Navbar-->
-    <nav>
-        <ul class = "link">
+    <nav class = "navDrop">
+        <a href="javascript:void(0);" onclick="clickDrop()">Menu</a>
+        <ul class = "link" id="navLinks">
             <li><a class="active" href="index.htm">MAIN</a></li> 
             <li><a href="cad.htm">Surveying</a></li>
             <li><a href="database.htm">Databases</a></li>
@@ -75,6 +77,11 @@
         var d = new Date();
         document.getElementById("demo").innerHTML = d;
     </script>
+
+    <p>Get in touch!</p>
+
+    <!-- https://staticmapmaker.com/google/ -->
+    <img width="600" src="https://maps.googleapis.com/maps/api/staticmap?center=Fleming+College,+Lindsay,+ON&zoom=13&scale=false&size=600x300&maptype=terrain&key=AIzaSyDkNXlV6Rib05Pi-6McS2M8uChUQGBN9xo&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff8080%7Clabel:%7CFleming+College,+Lindsay,+ON" alt="Google Map of Fleming College, Lindsay, ON">
     <!--*** End Owner: Honglin (Jim) Wei*** -->
 
     <!-------------------

@@ -42,4 +42,19 @@ function validate(){
     alert("Form Submitted Successfully!");
     return true;
   }
-//Kedie  
+//Kedie
+
+// Javascript Owner: Korey Hayes
+// Source: w3schools
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function clickDrop() { 
+  var drop = document.getElementById("navLinks");
+  if (drop.style.display === "block") {
+    drop.style.display = (window.onclick = "none");
+    drop.style.display = "none";
+  } else {
+    drop.style.display = "block";
+  }
+}
+// End Owner: Korey Hayes

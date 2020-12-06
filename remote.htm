@@ -3,8 +3,9 @@
     <head>
         <title>Group 7 Consulting</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="stylePlay.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <script src="JavaScript.js"></script>
     </head>
 <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 <!-- <link rel="stylesheet" href="/CSS_Pg1.css">-->
@@ -24,18 +25,19 @@
 <!--From kohaye.github.io/index.htm-->
 <!-- I open up my navigation area for the links to this page and the other two
 I also style the navigation bar in the CSS file-->
-<nav>
+<nav class = "navDrop">
+    <a href="javascript:void(0);" onclick="clickDrop()">Menu</a>
     <!-- I started an unordered list to have the links show with no numbers-->
-<ul class = "link">
+<ul class = "link" id = "navLinks">
   <!--each link is part of my overall web page so I was able to trim to just the file name-->
   <!-- each page has the link to its page set as the class="active" so the background color is different-->
+  <li><a class="active" href="remote.htm">REMOTE SENSING</a></li>
   <li><a href="index.htm">Main</a></li> 
   <li><a href="cad.htm">Surveying</a></li>
   <li><a href="database.htm">Databases</a></li>
   <li><a href="geodesy.htm">Geodesy</a></li>
   <li><a href="geoviz.htm">Geoviz'</a></li>
   <li><a href="psp.htm">Programming</a></li>
-  <li><a class="active" href="remote.htm">REMOTE SENSING</a></li>
   <li><a href="spatial.htm">Spatial Analysis</a></li>
   <li><a href="contact.htm">Crew</a></li>
   <!-- Close the list-->
@@ -50,7 +52,14 @@ I also style the navigation bar in the CSS file-->
 <P>We have the skills to provide interpretation and measurement of physical, biological, and cultural features from satellite and aerial imagery. 
    Our work will provide you with the answers you need through the interpretation of the electromagnetic spectrum, working with raster data, geometric 
    correction, atmospheric correction, and image classification techniques.</P>
-   <!--**End Owner: Jenn Debono-->
+<!--**End Owner: Jenn Debono-->
+
+<!--**Owner: Jenn Debono-->
+<!--Dec 5 2020-->
+   <img src="image/RS_Image1_2.png" alt="Scatter Plot">
+   <img src="image/RS_Image2_2.png" alt="Classifications">
+   <img src="image\RS_SFC_432_2.jpg" alt="Spectral Image">
+<!--**End Owner: Jenn Debono-->
    
 <!--**Owner: Jenn Debono-->
 <!--Nov 30 2020-->

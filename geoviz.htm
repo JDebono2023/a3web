@@ -3,8 +3,9 @@
     <head>
         <title>Group 7 Consulting</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="stylePlay.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <script src="JavaScript.js"></script>
     </head>
 <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 <!-- <link rel="stylesheet" href="/CSS_Pg1.css">-->
@@ -27,17 +28,18 @@
         - From  : https://developer.mozilla.org/en-US/docs/Web/HTML/Element/
         ------------------- -->
     <!--Navbar-->
-    <nav>
-        <ul class = "link">
-            <li><a href="index.htm">MAIN</a></li> 
-            <li><a href="cad.htm">Surveying</a></li>
-            <li><a href="database.htm">Databases</a></li>
-            <li><a href="geodesy.htm">Geodesy</a></li>
-            <li><a class = "active" href="geoviz.htm">GEOVIZ'</a></li>
-            <li><a href="psp.htm">Programming</a></li>
-            <li><a href="remote.htm">Remote Sensing</a></li>
-            <li><a href="spatial.htm">Spatial Analysis</a></li>
-            <li><a href="contact.htm">Crew</a></li>
+    <nav class = "navDrop">
+        <a href="javascript:void(0);" onclick="clickDrop()">Menu</a>
+            <ul class = "link" id = "navLinks">
+                <li><a class = "active" href="geoviz.htm">GEOVIZ'</a></li>
+                <li><a href="index.htm">MAIN</a></li> 
+                <li><a href="cad.htm">Surveying</a></li>
+                <li><a href="database.htm">Databases</a></li>
+                <li><a href="geodesy.htm">Geodesy</a></li>
+                <li><a href="psp.htm">Programming</a></li>
+                <li><a href="remote.htm">Remote Sensing</a></li>
+                <li><a href="spatial.htm">Spatial Analysis</a></li>
+                <li><a href="contact.htm">Crew</a></li>
         </ul>
     </nav>
 <section>
