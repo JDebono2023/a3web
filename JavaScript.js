@@ -45,7 +45,7 @@ function validate(){
 //Kedie
 
 // Javascript Owner: Korey Hayes
-// Source: w3schools
+// Source: https://www.w3schools.com/howto/howto_js_dropdown.asp
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function clickDrop() { 
