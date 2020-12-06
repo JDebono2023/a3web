@@ -201,16 +201,17 @@ width: 40%;
 
 /* Owner: Kedie Perdue
 Nov 30, 2020
-https://www.w3schools.com/css/css_form.asp*/
+https://www.w3schools.com/css/css_form.asp
+HTLM & CSS design and build websites, Jon Duckett, chapter 14*/
 
 /*
 {margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: 'arial';}
+  font-family: 'arial';}*/
 
-.wrapper{
+.label{
   position: absolute;
   top: 80%;
   left: 20%;
@@ -221,7 +222,7 @@ https://www.w3schools.com/css/css_form.asp*/
   border-radius: 5px; 
 }
 
-.wrapper h2{
+.label h2{
   text-align: center;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -233,21 +234,21 @@ https://www.w3schools.com/css/css_form.asp*/
   margin-bottom: 10px;
 }
 
-.wrapper .input_field input[type="text"],
-.wrapper textarea{
+.label .input_field input[type="text"],
+.label textarea{
   border: 1px solid black;
   width: 100%;
   padding: 10px;
 }
-
-.wrapper textarea{
+/* style 'course' portion of the text area*/
+.label textarea{
   resize: none;
   height: 80px;
 }
 
 /* style submit button*/
-/*
-.wrapper .btn input[type="submit"]{
+
+.label .btn input[type="submit"]{
   border: 0px;
   margin-top: 15px;
   padding: 10px;
@@ -257,17 +258,17 @@ https://www.w3schools.com/css/css_form.asp*/
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: bold;
-  border-radius: 25px;
+  border-radius: 40px;
   cursor: pointer;
 }
 
 #error_message{
   margin-bottom: 20px;
-  background: #fe8b8e;
+  background: grey;
   padding: 0px;
   text-align: center;
   font-size: 14px;
   transition: all 0.5s ease;
 }
-*/
+
 /* End Owner Kedie Perdue*/
