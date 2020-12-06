@@ -15,9 +15,6 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 .j {
   list-style-type: square;
 }
-/* https://css-tricks.com/almanac/properties/l/list-style/ */
-/* End Owner: Honglin (Jim) Wei */
-
 .imgj{width: 50%;
   list-style-type: none;
 }
@@ -25,13 +22,17 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 .imgj2{width: 35%;
   list-style-type: none;
 }
+/* https://css-tricks.com/almanac/properties/l/list-style/ */
+/* End Owner: Honglin (Jim) Wei */
+
+
 
 /***************** 
 * Owner : Jennifer Debono
-* Date  : Nov 24 (v1)
-* From  : Link?
+* Nov 30 2020
+* https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Handling_different_text_directions 
+* Format text style boxes for titles on Crew page
 **********************************/
-
 .footer {
   background-color: #777;
   padding: 10px;
@@ -40,12 +41,6 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
   margin-top: 10px;
 }
 
-/***************** 
-* Owner : Jennifer Debono
-* Nov 30 2020
-* https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Handling_different_text_directions 
-* Format text style boxes for titles on Crew page
-**********************************/
 .box {
   width: 150px;
 }
