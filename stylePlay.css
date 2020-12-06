@@ -240,6 +240,7 @@ width: 40%;
 article { width: 60%;}
 aside { width: 30%;}
 header{width: 60%;}
+li a {width:auto;}
 }
 
 /* End of Computer Monitor Formatting */
