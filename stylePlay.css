@@ -64,15 +64,9 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 * https://www.geeksforgeeks.org/resize-image-proportionally-with-css/ 
 * Format images on Crew page
 **********************************/
-.gfg { 
-width:auto; 
-text-align:center; 
-padding:20px; 
-} 
-
-img {
-max-width:100%;
-height:auto;
+.imgCrew {
+max-width:50%;
+height:50%;
 }
 /* End Owner: Jennifer Debono */
 
@@ -113,13 +107,20 @@ height:auto;
   margin-bottom: 50px;
   /*background-color: #4e6d26;*/
  }
+
+ /* formatting for after columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
   /* End Owner: Jennifer Debono */
 
 /****************** 
 * Owner : Jennifer Debono 
 * Dec 6 2020
 * https://css-tricks.com/using-css-for-image-borders/
-* formatting for text header and descriptions on SA and RS pages
+* formatting for text header and descriptions 
 **********************************/
 
 .topJD {
