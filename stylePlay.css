@@ -35,7 +35,7 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 * Owner : Jennifer Debono
 * Nov 30 2020
 * https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Handling_different_text_directions 
-* Format text style boxes for titles on Crew page
+* Format footer
 **********************************/
 .footer {
     background-color: #777;
@@ -44,28 +44,90 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
     color: white;
     margin-top: 10px;
 }
+/* End Owner: Jennifer Debono */
+
+/***************** 
+* Owner : Jennifer Debono
+* Nov 30 2020
+* https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Handling_different_text_directions 
+* Format text style boxes for titles on Crew page
+**********************************/
 .horizontal {
     writing-mode: horizontal-tb;
 }
-  
-.vertical {
-    writing-mode: vertical-rl;
-}
-/****************** 
+
+/* End Owner: Jennifer Debono */
+
+/******************
+* Owner : Jennifer Debono 
 * Dec 1 2020
 * https://www.geeksforgeeks.org/resize-image-proportionally-with-css/ 
 * Format images on Crew page
 **********************************/
-
 .gfg { 
 width:auto; 
 text-align:center; 
 padding:20px; 
 } 
+
 img {
 max-width:100%;
 height:auto;
 }
+/* End Owner: Jennifer Debono */
+
+/****************** 
+* Owner : Jennifer Debono 
+* Dec 6 2020
+* https://css-tricks.com/using-css-for-image-borders/
+* formatting for images on remote Sensing and Spatial analysis
+**********************************/
+.imgJD {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px
+  border: 10px solid #4e6d26;
+  padding: 10px
+}
+
+.imgcolumn1 {
+  float: left;
+  width: 33.3%;
+  /*background-color: #4e6d26;*/
+  margin-bottom: 50px;
+}
+
+.imgcolumn2 {
+  float: center;
+  width: 33.3%;
+  margin-bottom: 50px;
+  /*background-color: #4e6d26;*/
+}
+
+.imgcolumn3 {
+  float: right;
+  width: 33.3%;
+  height: fit-content;
+  margin-bottom: 50px;
+  /*background-color: #4e6d26;*/
+ }
+  /* End Owner: Jennifer Debono */
+
+/****************** 
+* Owner : Jennifer Debono 
+* Dec 6 2020
+* https://css-tricks.com/using-css-for-image-borders/
+* formatting for text header and descriptions on SA and RS pages
+**********************************/
+
+.topJD {
+  text-align: left;
+  padding: 10px;
+  border: 4px solid #4e6d26;
+}
+
 /* End Owner: Jennifer Debono */
 
 /***************** 
