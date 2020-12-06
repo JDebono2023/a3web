@@ -6,6 +6,10 @@
         <link rel="stylesheet" href="stylePlay.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
         <script src = "JavaScript.js"></script>
+        <script
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3o66Br2sFyq9eD2VQjC9zZ6l4g4p4x8g&callback=initMap&libraries=&v=weekly"
+          defer
+        ></script>
     </head>
 <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 <!-- <link rel="stylesheet" href="/CSS_Pg1.css">-->
@@ -71,18 +75,30 @@
         </article>
     </section>
 
-    <h4>Today's Date</h4>
-    <p id="demo"></p>
+
+    <!-- !!!!!!!!!!!!!!!!!!!!!To be moved to style page -->
+    <style type="text/css">
+        #map {
+            height:400px;
+            width:100%;
+        }
+    </style>
+
+    <!-- !!!!!!!!!!!!!! To be moved to scripts page! -->
     <script>
-        var d = new Date();
-        document.getElementById("demo").innerHTML = d;
+
+        function initMap(){
+            const fleming = {lat:44.3431848,lng:-78.7450429};
+            
+            const map = new google.maps.Map(document.getElementById("map"),{
+                zoom: 13,
+                center: fleming,
+            })
+        }
     </script>
 
-    <p>Get in touch!</p>
-
-    <!-- https://staticmapmaker.com/google/ -->
-    <img width="600" src="https://maps.googleapis.com/maps/api/staticmap?center=Fleming+College,+Lindsay,+ON&zoom=13&scale=false&size=600x300&maptype=terrain&key=AIzaSyDkNXlV6Rib05Pi-6McS2M8uChUQGBN9xo&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff8080%7Clabel:%7CFleming+College,+Lindsay,+ON" alt="Google Map of Fleming College, Lindsay, ON">
-    <!--*** End Owner: Honglin (Jim) Wei*** -->
+    <h4>Our Office Location</h4>
+    <div id="map"></div>
 
     <!-------------------
     - Owner : Jennifer Debono
