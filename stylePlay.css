@@ -26,9 +26,16 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 .imgj{width: 1000%;
     list-style-type: none;
   }
-.imgj2{width: 100%;
+.imgj2{width: 33%;
     list-style-type: none;
 }
+
+/* This id selector is used specificaly for google api map element*/
+#map {
+  height:400px;
+  width:100%;
+}
+
 /* End Owner: Honglin (Jim) Wei */
 
 /***************** 
@@ -49,27 +56,37 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 /***************** 
 * Owner : Jennifer Debono
 * Nov 30 2020
-* https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Handling_different_text_directions 
+* https://codepen.io/Ramagician/pen/GWpKZj
+* https://www.w3schools.com/css/css_float_clear.asp
 * Format text style boxes for titles on Crew page
 **********************************/
-.crewgallery {
-  margin: 5px;
-  border: 1px solid #4e6d26;
-  
-  width: 300px;
+.container {
+  height: 200px;
+  background: white;
+  border: solid;
+  border-color: #4e6d26;
+  border-width: 2px;
+  margin-bottom: 2rem;
 }
 
-.crewgallery Img {
-  width: fit-content;
-  height: fit-content;
+.image-container {
+  float: left;
+}
+
+.image {
   overflow: auto;
-
 }
 
-.crewdesc {
-  padding: 15px;
-  text-align: center;
+.text h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1em;
 }
+
+.text {
+    height: 100%;
+}
+
 /* End Owner: Jennifer Debono */
 
 /****************** 

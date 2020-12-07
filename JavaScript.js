@@ -70,10 +70,16 @@ function initMap(){
   // Give constant variable for fleming location
     const fleming = {lat:44.3431848,lng:-78.7450429};
     
-    // uses the map element to center at fleming, and zoom to lvl 13
+    // Uses the map element to center at fleming, and zoom to lvl 13
     const map = new google.maps.Map(document.getElementById("map"),{
         zoom: 13,
         center: fleming,
-    })
+      });
+
+    // Marker pointing at fleming
+    const marker = new google.maps.Marker({
+      position: fleming,
+      map: map,
+    });
 }
 // End Owner: Honglin (Jim) Wei
