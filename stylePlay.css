@@ -16,6 +16,7 @@ Owners: Shown in the main formatting and @Media Formatting area */
 * Owner : Honglin (Jim) Wei
 * Date  : Nov 24 (v1)
 * From  : https://www.w3schools.com/html/html_intro.asp
+          https://developers.google.com/maps/documentation/javascript/adding-a-google-map#maps_add_map-css
 ******************/
 
 body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
@@ -23,7 +24,7 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 .j {
     list-style-type: square;
 }
-.imgj{width: 1000%;
+.imgj{width: 100%;
     list-style-type: none;
   }
 .imgj2{width: 33%;
@@ -63,8 +64,10 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 .container {
   height: 200px;
   background: white;
-  
-  padding: 10pt
+  border: solid;
+  border-color: #4e6d26;
+  padding: 10pt;
+  margin-bottom: 10px;
 }
 
 .image-container {
