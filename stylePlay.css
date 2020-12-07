@@ -240,7 +240,11 @@ list-style-type: none;
 }
 /* we had decided as a group that the top of our page should have
 a background to make sure that the photo placement is seamless */
-.top{background-color: #4e6d26;}
+.top{background-color: #4e6d26;
+  content: "";
+  display: table;
+  clear: both;
+}
 /* I developed this formatting through w3school tutorials
 and refined it through Programminghub.io 
 I created a section that incorporated a side that was 30% of the page
