@@ -69,6 +69,7 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 
 .image-container {
   float: left;
+  width:30%;
 }
 
 .image {
@@ -80,6 +81,7 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
     height: 100%;
     padding: 10pt;
     float:left;
+    width: 65%;
 }
 
 /****************** 
@@ -363,8 +365,6 @@ Duckett, Jon. HTML and CSS: Design and Build Websites. Wiley &amp; Sons, 2011. c
 .box {
     width: 150px;
   }
-.image-container{width:30%;}
-.text{width:65%}
 .imgcolumn1{width:35%;}
 .imgcolumn3{width:60%;}
   /* End Owner: Jennifer Debono */
