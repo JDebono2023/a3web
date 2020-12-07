@@ -139,7 +139,7 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 * the tag names li, li a and ul are from https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 ******************/
 
-.columnk1,  .columnk2, .columnk3, .columnk4, article, header, aside, nav, li, a, .box{ 
+.columnk1,  .columnk2, .columnk3, .columnk4, article, header, aside, nav, li, a, .box, .imgcolumn1, .imgcolumn3{ 
 width: 100%; 
 }
 /* Navigation Bar */
@@ -365,6 +365,8 @@ Duckett, Jon. HTML and CSS: Design and Build Websites. Wiley &amp; Sons, 2011. c
   }
 .image-container{width:30%;}
 .text{width:65%}
+.imgcolumn1{width:35%;}
+.imgcolumn3{width:60%;}
   /* End Owner: Jennifer Debono */
 
   /***************** 
