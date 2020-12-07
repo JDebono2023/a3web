@@ -63,8 +63,10 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 .container {
   height: 200px;
   background: white;
-  
-  padding: 10pt
+  border: solid;
+  border-color: #4e6d26;
+  padding: 10pt;
+  margin-bottom: 10px;
 }
 
 .image-container {
