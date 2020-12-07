@@ -59,7 +59,7 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 * Format text style boxes for titles and images on Crew page
 **********************************/
 .container {
-  height: 200px;
+  height: 250px;
   background: white;
   border: solid;
   border-color: #4e6d26;
@@ -73,15 +73,16 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 }
 
 .imageJD {
-  overflow: auto;
+  overflow: hidden;
   padding-right: 20pt;
+  width:100%;
 }
 
 .text {
     height: 100%;
     padding: 10pt;
-    float:left;
-    width: 65%;
+    float:right;
+    width: 60%;
 }
 
 /****************** 
