@@ -41,8 +41,11 @@
             <li><a href="contact.htm">Crew</a></li>
         </ul>
     </nav>
-
-<!--kedie's page--><!--kedie's page-->    
+<!-- End Owner: Korey Hayes -->
+<!--kedie's page--><!--kedie's page--> 
+<!--https://www.w3schools.com/html/html_forms.asp-->
+<!--https://www.w3schools.com/css/css_form.asp-->   
+<!--Duckett, Jon. HTML and CSS: Design and Build Websites. Wiley &amp; Sons, 2011. chp7-->
 <!-- <section>
     <h2>GEODETIC DEPT</h2>  
     <p>whether you are looking to bring old maps to live, 
@@ -59,8 +62,8 @@
 </section> -->
 
 <section>
-    <h2>GEODETIC DEPT</h2> 
-    <article>                                                               <!--Start of Added KH-->
+    <h2>GEODETIC DEPT</h2> <!-- Moved from inside <article> to fix warning -->
+    <article>
         <p>whether you are looking to bring old maps to live, 
             or correct coordinates systems for your projecct, our
             Geodesy department is the place to bring your project.
@@ -70,29 +73,30 @@
             
             We also offer software development and training, and we 
             can deliver training workshops for you and your team at you 
-            offices anywhere in Ontario
-        </p>                                                                   <!--End of Added KH-->
+            offices anywhere in Ontario.
+        </p>
         <h2>LAUNCH YOUR CAREER</h2>
         <p>We offer internships to second year Post Secondary students
             Fill this form and a member our team will contact you 
-            to discuss launching you career with the titans of the industry</p>  
+            to discuss launching you career with the titans of the industry!</p>  
     </article>
    
-    <aside class = "kedie"> <!--Changed from Article KH-->
+    <aside class = "kedie"> <!--Changed from Article KH--> <!-- Added "kedie" class -->
     <form class="label">
-        <h2>Intern with us!</h2>
         <div id="error_message"></div>
+        <h2>Intern with us!</h2>
+    <!--Separated into div classes so each 'colomn takes its own space-->    
     <div class="input_field">
         <input type="text" placeholder="Name" id="name">
-    </div>
-    <div class="input_field">
-        <input type="text" placeholder="program" id="program">
-    </div>
+    </div> 
     <div class="input_field">
         <input type="text" placeholder="Phone" id="phone">
     </div>
     <div class="input_field">
         <input type="text" placeholder="Email" id="email">
+    </div>
+    <div class="input_field">
+        <input type="text" placeholder="program" id="program">
     </div>
     <div class="input_field">
         <textarea placeholder="courses" id="courses"></textarea>
@@ -111,11 +115,7 @@
  </form>
 
 </aside> <!--Changed from article KH-->
-        
-
 </section>
-<!-- End Owner: Korey Hayes -->
-
     <!-- - Owner : Jennifer Debono
     - Date  : Nov 24 (v1)
     - From  : https://www.w3schools.com/html/html_intro.asp -->
