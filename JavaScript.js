@@ -8,13 +8,14 @@ function validate(){
     var phone = document.getElementById("phone").value;
     var email = document.getElementById("email").value;
     var program = document.getElementById("program").value;
-    var Courses = document.getElementById("Courses").value;
-    var Level = document.getElementById("Level").value;
+    var courses = document.getElementById("Courses").value;
+    var level = document.getElementById("Level").value;
     var error_message = document.getElementById("error_message");
     
-    error_message.style.padding = "10px";
+  
     //Error meaages when interacting with the form
     var text;
+
     if(name.length < 5){
       text = "Please Enter Your Name";
       error_message.innerHTML = text;
