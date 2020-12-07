@@ -41,7 +41,7 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 /***************** 
 * Owner : Jennifer Debono
 * Nov 30 2020
-* https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Handling_different_text_directions 
+* JenniferDebono.github.io/CSS_Pg1.css
 * Format footer
 **********************************/
 .footer {
@@ -58,15 +58,13 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 * Nov 30 2020
 * https://codepen.io/Ramagician/pen/GWpKZj
 * https://www.w3schools.com/css/css_float_clear.asp
-* Format text style boxes for titles on Crew page
+* Format text style boxes for titles and images on Crew page
 **********************************/
 .container {
   height: 200px;
   background: white;
-  border: solid;
-  border-color: #4e6d26;
-  border-width: 2px;
-  margin-bottom: 2rem;
+  
+  padding: 10pt
 }
 
 .image-container {
@@ -75,6 +73,7 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 
 .image {
   overflow: auto;
+  padding-right: 20pt;
 }
 
 .text h1 {
@@ -85,6 +84,7 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 
 .text {
     height: 100%;
+    padding: 10pt;
 }
 
 /* End Owner: Jennifer Debono */
@@ -96,29 +96,38 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 * formatting for images on remote Sensing and Spatial analysis
 **********************************/
 .imgJD {
- 
-  justify-content: center;
-  align-items: center;
+  width: auto;
   height: auto;
-  padding: 20px;
+  padding: 20pt;
+  align-items: center;
 }
 
 .imgcolumn1 {
   float: left;
-  width: 33.3%;
-}
-
-.imgcolumn2 {
-  float: center;
-  width: 33.3%;
+  align-items: center;
+  width: 45%;
+  border: solid;
+  border-color: #4e6d26;
+  border-width: 2px;
+  overflow: auto;
 }
 
 .imgcolumn3 {
   float: right;
-  width: 33.3%;
+  width: 50%;
+  border: solid;
+  border-color: #4e6d26;
+  border-width: 2px;
+  overflow: auto;
 }
+/* End Owner: Jennifer Debono */
 
- /* formatting for after columns */
+/****************** 
+* Owner : Jennifer Debono 
+* Dec 6 2020
+* https://css-tricks.com/using-css-for-image-borders/
+* formatting for after columns *
+**********************************/
 .row:after {
   content: "";
   display: table;
