@@ -7,7 +7,7 @@ Charlotte's Web
 Charlotte's Web Index Page:
 https://jimhwei.github.io/group7a3web/index.htm
 
-Charlotte's Web Github:
+Charlotte's Web Github Repository:
 https://github.com/jimhwei/group7a3web
 
 Commenting Guideline:
