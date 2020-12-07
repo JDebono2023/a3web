@@ -336,6 +336,7 @@ Duckett, Jon. HTML and CSS: Design and Build Websites. Wiley &amp; Sons, 2011. c
   border-radius: 40px;
   cursor: pointer;
 }
+
 #error_message{
   margin-bottom: 20px;
   background: grey;
@@ -344,6 +345,10 @@ Duckett, Jon. HTML and CSS: Design and Build Websites. Wiley &amp; Sons, 2011. c
   font-size: 14px;
   transition: all 0.5s ease;
 }
+
+.k {
+  list-style-type: disc;
+  }
 
 /* End Owner Kedie Perdue*/
 
