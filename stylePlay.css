@@ -109,19 +109,11 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
   float: left;
   align-items: center;
   width: 45%;
-  border: solid;
-  border-color: #4e6d26;
-  border-width: 2px;
-  overflow: auto;
 }
 
 .imgcolumn3 {
   float: right;
   width: 50%;
-  border: solid;
-  border-color: #4e6d26;
-  border-width: 2px;
-  overflow: auto;
 }
 /* End Owner: Jennifer Debono */
 
@@ -144,8 +136,13 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 * https://css-tricks.com/using-css-for-image-borders/
 * formatting for text header and descriptions 
 **********************************/
-
 .topJD {
+  text-align: left;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.topJDCrew {
   text-align: left;
   padding: 20px;
   border: 4px solid #4e6d26;
@@ -161,7 +158,7 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 * the tag names li, li a and ul are from https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 ******************/
 
-.columnk1,  .columnk2, .columnk3, .columnk4, article, header, aside, nav, li, a, .box{ 
+.columnk1,  .columnk2, .columnk3, .columnk4, article, header, aside, nav, li, a, .box, div{ 
 width: 100%; 
 }
 /* Navigation Bar */
