@@ -21,6 +21,15 @@ Owners: Shown in the main formatting and @Media Formatting area */
 
 body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 
+a {
+  color: white;
+  text-decoration: none;
+  /* font-weight:bold; */
+}
+a:hover {
+  font-weight:bold;
+}
+
 .j {
     list-style-type: square;
     overflow: visible;
