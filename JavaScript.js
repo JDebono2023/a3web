@@ -1,4 +1,3 @@
-
 // Javascript Owner: Korey Hayes
 // Source: https://www.w3schools.com/howto/howto_js_dropdown.asp
 /* When the user clicks on the button,
