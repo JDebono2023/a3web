@@ -301,7 +301,7 @@ Duckett, Jon. HTML and CSS: Design and Build Websites. Wiley &amp; Sons, 2011. c
   border-radius: 40px;
   cursor: pointer;
 }
-
+/* Styling for the list*/
 .k {
   list-style-type: disc;
   overflow: visible;
