@@ -37,6 +37,10 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
   width:100%;
 }
 
+p.ji {
+  font-style: italic;
+}
+
 /* End Owner: Honglin (Jim) Wei */
 
 /***************** 
