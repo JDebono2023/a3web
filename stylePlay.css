@@ -152,7 +152,8 @@ p.ji {
 * the tag names li, li a and ul are from https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 ******************/
 
-.columnk1,  .columnk2, .columnk3, .columnk4, article, header, aside, nav, li, a, .box, .imgcolumn1, .imgcolumn3{ 
+.columnk1,  .columnk2, .columnk3, .columnk4, article, 
+header, aside, nav, li, a, .box, .imgcolumn1, .imgcolumn3, .top{ 
 width: 100%; 
 }
 /* Navigation Bar */
