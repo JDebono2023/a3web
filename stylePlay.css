@@ -155,8 +155,8 @@ p.ji {
 * From  : https://programminghub.io/coursedetail/programming/learn/CSS/
 * the tag names li, li a and ul are from https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 ******************/
-
-.columnk1,  .columnk2, .columnk3, .columnk4, article, 
+/* set classes and tags to have full window width for mobile/small viewing */
+.columnk1,  .columnk2, .columnk3, .columnk4, article, .image,
 header, aside, nav, li, a, .box, .imgcolumn1, .imgcolumn3, .top{ 
 width: 100%; 
 }
@@ -164,54 +164,35 @@ width: 100%;
 
 nav {
 background-color: #4e6d26;
-overflow: hidden;
 }
 
-
-/* i change the list-style type of the unordered lists in my html 
-files to none so I don't get any bullets in my lists i set the
-margins and padding to 0 so they mush together and set the overflow 
-to hidden so the images and links bump up together */
 ul {
 margin:0;
 padding:0;
 overflow: hidden;
 }
 
-/* for the links I set them to float to the left so that they sit on 
-top of the images and their background. It's part of my design plan 
-and I think it works really well. I also display them as block so each 
-link is on their own with their own set of padding (14px horizontal 
-and 16px vertical) I didn't change it from what was shown in the 
-w3schools tutorial for the navigation bar because it just worked with 
-my layout. I did play around with it, which is why I know the first size 
-is horizontal and the second is vertical. I make the color of the link 
-text white, align them to the center of their respective boxes, remove 
-their underline with "text-decoration: none" and give them a dashed 
-border to the right of each block with border-right: 2px dashed white 
-(2px width) */
 .link{
-    list-style-type: none;
+    list-style-type: none;          
 }
-  
+
 li a {
-    float:left;
-    display: block;
-    color: white;
-    text-align: center;
+    float:left;                 
+    /* display: block;             
+    color: white;            
+    text-align: center;        
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: none; */
 }
-  /* I set a class to have the background color below. I use this for 
-  the page the user is on in the navigation bar */
-.active{background-color: #334719;
-text-transform: uppercase;}
+/* change the colour of the active link and make it all caps*/
+.active{background-color: #334719;  
+text-transform: uppercase;}           
 
 /* Style the navigation menu */
 .navDrop {
 overflow: hidden;
 background-color: #4e6d26;
-position: relative;
+/* position: relative; */
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -227,29 +208,21 @@ text-decoration: none;
 font-size: 16px;
 display: block;
 }
-/* Add a grey background color on mouse-over */
 .navDrop a:hover {
-background-color: #9dcc60;
+background-color: #9dcc60;          /* lighter background on hover */
 }
 
-/* I designed the image formatting to be 100% the width of
-whatever tag it is in. Each tag has been given a width of a
-percentage to have a responsive display that depends on window size */
-.image{width: 100%;
+/* .image {
 list-style-type: none;
-}
+} */
 /* we had decided as a group that the top of our page should have
 a background to make sure that the photo placement is seamless */
 .top{background-color: #4e6d26;
-  content: "";
+  /* content: ""; */
   display: table;
   clear: both;
 }
-/* I developed this formatting through w3school tutorials
-and refined it through Programminghub.io 
-I created a section that incorporated a side that was 30% of the page
-and an artice that was 60% (to allow for no overlap with padding)
-which is also responsive depending on the window size*/
+
 article {
 text-align: left;
 float: left;
@@ -308,7 +281,7 @@ Duckett, Jon. HTML and CSS: Design and Build Websites. Wiley &amp; Sons, 2011. c
   margin-bottom: 10px;
 }
 /* Portion where the text of the form goes*/
-.label .input_field input[type="text"],
+.input_field input[type="text"],
 .label textarea{
   border: 1px solid black;
   width: 100%;
@@ -323,7 +296,7 @@ Duckett, Jon. HTML and CSS: Design and Build Websites. Wiley &amp; Sons, 2011. c
 /* style submit button*/
 
 
-.label .btn2 input[type="submit"]{
+.btn2 input[type="submit"]{
   border: 0px;
   margin-top: 15px;
   padding: 10px;
@@ -336,7 +309,7 @@ Duckett, Jon. HTML and CSS: Design and Build Websites. Wiley &amp; Sons, 2011. c
   border-radius: 40px;
   cursor: pointer;
 }
-
+/*
 #error_message{
   margin-bottom: 20px;
   background: grey;
@@ -344,7 +317,7 @@ Duckett, Jon. HTML and CSS: Design and Build Websites. Wiley &amp; Sons, 2011. c
   text-align: center;
   font-size: 14px;
   transition: all 0.5s ease;
-}
+}*/
 
 .k {
   list-style-type: disc;
