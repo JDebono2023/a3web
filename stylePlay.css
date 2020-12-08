@@ -147,7 +147,7 @@ p.ji {
 * the tag names li, li a and ul are from https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 ******************/
 /* set classes and tags to have full window width for mobile/small viewing */
-.columnk1,  .columnk2, .columnk3, .columnk4, article, 
+.columnk1,  .columnk2, .columnk3, .columnk4, article, .image,
 header, aside, nav, li, a, .box, .imgcolumn1, .imgcolumn3, .top{ 
 width: 100%; 
 }
@@ -183,7 +183,7 @@ text-transform: uppercase;}
 .navDrop {
 overflow: hidden;
 background-color: #4e6d26;
-position: relative;
+/* position: relative; */
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -199,29 +199,21 @@ text-decoration: none;
 font-size: 16px;
 display: block;
 }
-/* Add a grey background color on mouse-over */
 .navDrop a:hover {
-background-color: #9dcc60;
+background-color: #9dcc60;          /* lighter background on hover */
 }
 
-/* I designed the image formatting to be 100% the width of
-whatever tag it is in. Each tag has been given a width of a
-percentage to have a responsive display that depends on window size */
-.image{width: 100%;
+/* .image {
 list-style-type: none;
-}
+} */
 /* we had decided as a group that the top of our page should have
 a background to make sure that the photo placement is seamless */
 .top{background-color: #4e6d26;
-  content: "";
+  /* content: ""; */
   display: table;
   clear: both;
 }
-/* I developed this formatting through w3school tutorials
-and refined it through Programminghub.io 
-I created a section that incorporated a side that was 30% of the page
-and an artice that was 60% (to allow for no overlap with padding)
-which is also responsive depending on the window size*/
+
 article {
 text-align: left;
 float: left;
