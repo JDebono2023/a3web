@@ -23,6 +23,8 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 
 .j {
     list-style-type: square;
+    overflow: visible;
+    margin-left: 20px;
 }
 /* .imgj{width: 100%;
     list-style-type: none;
@@ -150,7 +152,8 @@ p.ji {
 * the tag names li, li a and ul are from https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 ******************/
 
-.columnk1,  .columnk2, .columnk3, .columnk4, article, header, aside, nav, li, a, .box, .imgcolumn1, .imgcolumn3{ 
+.columnk1,  .columnk2, .columnk3, .columnk4, article, 
+header, aside, nav, li, a, .box, .imgcolumn1, .imgcolumn3, .top{ 
 width: 100%; 
 }
 /* Navigation Bar */
