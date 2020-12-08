@@ -5,10 +5,10 @@ Jennifer Debono, Korey Hayes, Kedie Perdue, Honglin (Jim) Wei
 Charlotte's Web
 
 Charlotte's Web Index Page:
-https://jimhwei.github.io/group7a3web/index.htm
+https://jimhwei.github.io/a3web/index.htm
 
 Charlotte's Web Github Repository:
-https://github.com/jimhwei/group7a3web
+https://github.com/jimhwei/a3web
 
 Commenting Guideline:
 https://github.com/shawnmflemingc/a3web
