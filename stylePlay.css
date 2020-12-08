@@ -261,8 +261,7 @@ Duckett, Jon. HTML and CSS: Design and Build Websites. Wiley &amp; Sons, 2011. c
 /* form css*/
 /*Used label and label. classes to avoid conflit with other css classes*/
 /* Position of the form on the page*/
-.kedie {float:right;} /*Korey owns this line */
-/* Kedie continues*/
+
 .label{
   top: 80%;
   left: 20%;
