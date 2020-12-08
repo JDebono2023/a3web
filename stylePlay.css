@@ -304,8 +304,9 @@ Duckett, Jon. HTML and CSS: Design and Build Websites. Wiley &amp; Sons, 2011. c
 }
 
 .k {
-  list-style-type: disc;
-  }
+  list-style-type: circle;
+}
+
 
 /* End Owner Kedie Perdue*/
 
