@@ -23,18 +23,30 @@ body,h1,h2,h3,h4,h5,h6, header, footer {font-family: "Lato", sans-serif}
 
 .j {
     list-style-type: square;
+    overflow: visible;
+    margin-left: 20px;
 }
-.imgj{width: 100%;
+/* .imgj{width: 100%;
     list-style-type: none;
   }
 .imgj2{width: 33%;
     list-style-type: none;
+} */
+.imgj3 {
+  /* float: left; */
+  list-style-type: none;
+  width: 100;
+  margin-right:15px;
 }
 
 /* This id selector is used specificaly for google api map element*/
 #map {
   height:400px;
   width:100%;
+}
+
+p.ji {
+  font-style: italic;
 }
 
 /* End Owner: Honglin (Jim) Wei */
@@ -346,13 +358,15 @@ Duckett, Jon. HTML and CSS: Design and Build Websites. Wiley &amp; Sons, 2011. c
           https://css-tricks.com/almanac/properties/l/list-style/
           Colors: https://colourco.de/monochrome/5/77a838 Monochrome green  
 ******************/
-.imgj{width: 50%;
+/* .imgj{width: 50%;
   list-style-type: none;
 }
 .imgj2{width: 35%;
   list-style-type: none;
-}    
-
+}     */
+.imgj3 {
+  float: left;
+}
 /* End Owner: Honglin (Jim) Wei */
 
 /***************** 
