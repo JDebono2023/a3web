@@ -13,6 +13,8 @@ https://github.com/jimhwei/a3web
 Commenting Guideline:
 https://github.com/shawnmflemingc/a3web
 
-HTML5 validator: https://validator.w3.org/
+HTML5 validator: 
+https://validator.w3.org/
 
-CSS3 validator: https://jigsaw.w3.org/css-validator/
+CSS3 validator: 
+https://jigsaw.w3.org/css-validator/
