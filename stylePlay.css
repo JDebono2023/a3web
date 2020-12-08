@@ -33,13 +33,13 @@ a:hover {
 .j {
     list-style-type: square;
     overflow: visible;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .imgj3 {
-  /* float: left; */
   list-style-type: none;
-  width: 100% ;
+  width: 90% ;
+  margin-left:25px;
   margin-right:15px;
 }
 
@@ -289,7 +289,6 @@ Duckett, Jon. HTML and CSS: Design and Build Websites. Wiley &amp; Sons, 2011. c
 
 /* style submit button*/
 
-
 .btn2 input[type="submit"]{
   border: 0px;
   margin-top: 15px;
@@ -303,19 +302,13 @@ Duckett, Jon. HTML and CSS: Design and Build Websites. Wiley &amp; Sons, 2011. c
   border-radius: 40px;
   cursor: pointer;
 }
-/*
-#error_message{
-  margin-bottom: 20px;
-  background: grey;
-  padding: 0px;
-  text-align: center;
-  font-size: 14px;
-  transition: all 0.5s ease;
-}*/
 
 .k {
   list-style-type: disc;
-  }
+  overflow: visible;
+  padding-left: 20px;
+}
+
 
 /* End Owner Kedie Perdue*/
 
@@ -332,6 +325,7 @@ Duckett, Jon. HTML and CSS: Design and Build Websites. Wiley &amp; Sons, 2011. c
 /* Floats left on computer monitor */
 .imgj3 {
   float: left;
+  width: 45%;
 }
 /* End Owner: Honglin (Jim) Wei */
 
