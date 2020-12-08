@@ -304,7 +304,8 @@ Duckett, Jon. HTML and CSS: Design and Build Websites. Wiley &amp; Sons, 2011. c
 }
 
 .k {
-  list-style-type: circle;
+  list-style-type: disc;
+  overflow: visible;
 }
 
 
