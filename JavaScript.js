@@ -3,7 +3,7 @@
 //https://www.w3schools.com/js/js_validation.asp
 //Duckett, Jon. JavaScript and JQuery: Interactive Front-End Web Development. Wiley & Sons, 2014
 
-function validate(){
+/*function validate(){
     var name = document.getElementById("name").value;
     var phone = document.getElementById("phone").value;
     var email = document.getElementById("email").value;
@@ -11,11 +11,8 @@ function validate(){
     var courses = document.getElementById("Courses").value;
     var level = document.getElementById("Level").value;
     var error_message = document.getElementById("error_message");
-    
+    var text
   
-    //Error meaages when interacting with the form
-    var text;
-
 
     if(name.length < 5){
       text = "Please Enter Your Name";
@@ -45,7 +42,7 @@ function validate(){
     }
     alert("Form Submitted Successfully!");
     return true;
-}
+}*/
   
   
 //Kedie
