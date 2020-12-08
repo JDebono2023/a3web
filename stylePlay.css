@@ -33,13 +33,13 @@ a:hover {
 .j {
     list-style-type: square;
     overflow: visible;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .imgj3 {
-  /* float: left; */
   list-style-type: none;
-  width: 100% ;
+  width: 90% ;
+  margin-left:25px;
   margin-right:15px;
 }
 
@@ -332,6 +332,7 @@ Duckett, Jon. HTML and CSS: Design and Build Websites. Wiley &amp; Sons, 2011. c
 /* Floats left on computer monitor */
 .imgj3 {
   float: left;
+  width: 45%;
 }
 /* End Owner: Honglin (Jim) Wei */
 
