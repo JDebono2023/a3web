@@ -16,6 +16,7 @@ function validate(){
     //Error meaages when interacting with the form
     var text;
 
+
     if(name.length < 5){
       text = "Please Enter Your Name";
       error_message.innerHTML = text;
@@ -44,7 +45,9 @@ function validate(){
     }
     alert("Form Submitted Successfully!");
     return true;
-  }
+}
+  
+  
 //Kedie
 
 // Javascript Owner: Korey Hayes
