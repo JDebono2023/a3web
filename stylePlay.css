@@ -195,7 +195,8 @@ li a {
 }
   /* I set a class to have the background color below. I use this for 
   the page the user is on in the navigation bar */
-.active{background-color: #334719}
+.active{background-color: #334719;
+text-transform: uppercase;}
 
 /* Style the navigation menu */
 .navDrop {
