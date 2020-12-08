@@ -39,7 +39,7 @@ a:hover {
 .imgj3 {
   /* float: left; */
   list-style-type: none;
-  width: 100;
+  width: 100% ;
   margin-right:15px;
 }
 
@@ -155,7 +155,7 @@ p.ji {
 * From  : https://programminghub.io/coursedetail/programming/learn/CSS/
 * the tag names li, li a and ul are from https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 ******************/
-/* set classes and tags to have full window width for mobile/small viewing */
+/* set classes and tags to have full window width for mobile/small window viewing */
 .columnk1,  .columnk2, .columnk3, .columnk4, article, .image,
 header, aside, nav, li, a, .box, .imgcolumn1, .imgcolumn3, .top{ 
 width: 100%; 
@@ -177,12 +177,7 @@ overflow: hidden;
 }
 
 li a {
-    float:left;                 
-    /* display: block;             
-    color: white;            
-    text-align: center;        
-    padding: 14px 16px;
-    text-decoration: none; */
+    float:left;
 }
 /* change the colour of the active link and make it all caps*/
 .active{background-color: #334719;  
@@ -202,23 +197,20 @@ display: none;
 
 /* Style navigation menu links */
 .navDrop a {
-color: white;
+color: white;                       /* changes from default blue */
 padding: 10px;
-text-decoration: none;
-font-size: 16px;
+text-decoration: none;                /* removes the underline */
 display: block;
 }
 .navDrop a:hover {
 background-color: #9dcc60;          /* lighter background on hover */
 }
 
-/* .image {
-list-style-type: none;
-} */
+/* End of Navigation Bar */
+
 /* we had decided as a group that the top of our page should have
 a background to make sure that the photo placement is seamless */
 .top{background-color: #4e6d26;
-  /* content: ""; */
   display: table;
   clear: both;
 }
@@ -229,14 +221,12 @@ float: left;
 margin-left: 10px; 
 }
 section:after {
-content: "";
-display: table;
-clear: both;
+content: "";            /* ensures no content comes into the section */
+display: table;         /* allows me to set up tags and classes as columns */
+clear: both;            /* ensures no content comes out of the section */
 }
 aside {
 float: left;
-padding: 10px;
-background-color: #4e6d26;
 }
 /* This header was designed  to use my Mattawa River photo
 to coincide with the Fleming College Logo */
@@ -245,6 +235,10 @@ font-size: 50px;
 float: right;
 text-align:right;
 background-color: #4e6d26;
+}
+.form{
+  background-color: #4e6d26;
+  padding: 10px;
 }
 /* End Owner: Korey Hayes */
 
