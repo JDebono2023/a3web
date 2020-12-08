@@ -12,3 +12,7 @@ https://github.com/jimhwei/group7a3web
 
 Commenting Guideline:
 https://github.com/shawnmflemingc/a3web
+
+HTML5 validator: https://validator.w3.org/
+
+CSS3 validator: https://jigsaw.w3.org/css-validator/

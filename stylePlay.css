@@ -38,7 +38,14 @@ a:hover {
 
 .imgj3 {
   list-style-type: none;
-  width: 90% ;
+  width: 80% ;
+  margin-left:25px;
+  margin-right:15px;
+}
+
+.imgj4 {
+  list-style-type: none;
+  width: 80% ;
   margin-left:25px;
   margin-right:15px;
 }
@@ -53,6 +60,9 @@ p.ji {
   font-style: italic;
 }
 
+p.wrap{
+  padding-right: 25%;
+}
 /* End Owner: Honglin (Jim) Wei */
 
 /***************** 
@@ -324,7 +334,12 @@ Duckett, Jon. HTML and CSS: Design and Build Websites. Wiley &amp; Sons, 2011. c
 /* Floats left on computer monitor */
 .imgj3 {
   float: left;
-  width: 45%;
+  width: 35%;
+}
+
+.imgj4 {
+  float: left;
+  width: 25% ;
 }
 /* End Owner: Honglin (Jim) Wei */
 
